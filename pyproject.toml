@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools-scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "logkit"
+description = "Console + full-detail rotating file logging for long-running bots"
+requires-python = ">=3.9"
+dynamic = ["version"]
+
+[tool.setuptools]
+packages = ["logkit"]
+
+[tool.setuptools_scm]
